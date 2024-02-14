@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: dodgerblue;
+    color: #fff;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 20px;
+    
+
+}
+.hello{
+    position: fixed;
+    height: 100px;
+    width: 150px;
+    left: 0px;
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: beige;
+    color: black;
+    line-height: 50px;
+    text-align: center;
+    font: bold;
+    margin-bottom: 20px;
+  
+}
+
+nav a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font: bold;
+    display: inline-block;
+    padding: 0 25px;
+}
+section{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ccc;
+    margin: bottom 20px;
+}
+.left{
+    width:23%;
+    height: 100%;
+    background-color:white;      
+}
+.nav a{
+    width: 100%;
+    height: 50px;
+    background-color:aqua ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    line-height: 50px;
+    margin-bottom: 20px;
+    display: inline-block;
+    padding: 0 25px;
+}
+.middle{
+    width: 50%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.right{
+    width: 23%;
+    height: 100%;
+}
+.imgvc{
+   
+    width: auto;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.imgpvc{
+    width:auto;
+    height: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #555;
+    color: #fff;
+    line-height: 40%;
+    text-align: center;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: #ccc;
+    margin: 5px;
+    border-radius:  80%;
+}
+.footerBottom{
+    width: 100%;
+    height: 40px;
+    padding: auto;
+    color: white;
+
+}
